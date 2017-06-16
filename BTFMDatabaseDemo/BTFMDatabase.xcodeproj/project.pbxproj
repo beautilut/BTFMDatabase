@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5A74A2BDB19048CA2C66CDE6 /* Pods_BTFMDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962FAD087649BE295DBCBDCE /* Pods_BTFMDatabase.framework */; };
-		9780A3DB9EDC4EBB85E8C87E /* BTBaseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780AD5C45F5FA6250A7CBE7 /* BTBaseDB.m */; };
-		9780A867D33A94CA224E2C49 /* BTDBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780AFD42E7238D132E2E018 /* BTDBProperty.m */; };
-		9780ABF112CD8ED38D8F5E9F /* BTDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780AF3877A72DAEA19CE38E /* BTDBManager.m */; };
-		9780AF8E9D8F7EFC1E0215FE /* BTDBCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780AA1A9374D011C01B1621 /* BTDBCondition.m */; };
 		DBAF11281EF3AD74006DD915 /* BTBaseDBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF11271EF3AD74006DD915 /* BTBaseDBTest.m */; };
+		DBAF11321EF3D310006DD915 /* BTBaseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF112B1EF3D310006DD915 /* BTBaseDB.m */; };
+		DBAF11331EF3D310006DD915 /* BTDBCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF112D1EF3D310006DD915 /* BTDBCondition.m */; };
+		DBAF11341EF3D310006DD915 /* BTDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF112F1EF3D310006DD915 /* BTDBManager.m */; };
+		DBAF11351EF3D310006DD915 /* BTDBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF11311EF3D310006DD915 /* BTDBProperty.m */; };
 		DBFE52DA1EE65AB500CD4A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE52D91EE65AB500CD4A49 /* main.m */; };
 		DBFE52DD1EE65AB500CD4A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE52DC1EE65AB500CD4A49 /* AppDelegate.m */; };
 		DBFE52E01EE65AB500CD4A49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE52DF1EE65AB500CD4A49 /* ViewController.m */; };
@@ -43,17 +43,17 @@
 /* Begin PBXFileReference section */
 		8C8B7934DE38193F5D868AE8 /* Pods-BTFMDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTFMDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTFMDatabase/Pods-BTFMDatabase.debug.xcconfig"; sourceTree = "<group>"; };
 		962FAD087649BE295DBCBDCE /* Pods_BTFMDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTFMDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9780A0A0D19CF67064B59DE6 /* BTDBCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDBCondition.h; sourceTree = "<group>"; };
-		9780A5CABEA2159483268F99 /* BTDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDBManager.h; sourceTree = "<group>"; };
-		9780A819FB53A3A1A265E6CB /* BTDBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDBProperty.h; sourceTree = "<group>"; };
-		9780AA1A9374D011C01B1621 /* BTDBCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDBCondition.m; sourceTree = "<group>"; };
-		9780ACECA8037B6D6259128F /* BTBaseDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBaseDB.h; sourceTree = "<group>"; };
-		9780AD5C45F5FA6250A7CBE7 /* BTBaseDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBaseDB.m; sourceTree = "<group>"; };
-		9780AF3877A72DAEA19CE38E /* BTDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDBManager.m; sourceTree = "<group>"; };
-		9780AFD42E7238D132E2E018 /* BTDBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDBProperty.m; sourceTree = "<group>"; };
 		AD338D60ED8866046FD74BE5 /* Pods-BTFMDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTFMDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTFMDatabase/Pods-BTFMDatabase.release.xcconfig"; sourceTree = "<group>"; };
 		DBAF11261EF3AD74006DD915 /* BTBaseDBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBaseDBTest.h; sourceTree = "<group>"; };
 		DBAF11271EF3AD74006DD915 /* BTBaseDBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBaseDBTest.m; sourceTree = "<group>"; };
+		DBAF112A1EF3D310006DD915 /* BTBaseDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBaseDB.h; sourceTree = "<group>"; };
+		DBAF112B1EF3D310006DD915 /* BTBaseDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBaseDB.m; sourceTree = "<group>"; };
+		DBAF112C1EF3D310006DD915 /* BTDBCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDBCondition.h; sourceTree = "<group>"; };
+		DBAF112D1EF3D310006DD915 /* BTDBCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDBCondition.m; sourceTree = "<group>"; };
+		DBAF112E1EF3D310006DD915 /* BTDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDBManager.h; sourceTree = "<group>"; };
+		DBAF112F1EF3D310006DD915 /* BTDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDBManager.m; sourceTree = "<group>"; };
+		DBAF11301EF3D310006DD915 /* BTDBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDBProperty.h; sourceTree = "<group>"; };
+		DBAF11311EF3D310006DD915 /* BTDBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDBProperty.m; sourceTree = "<group>"; };
 		DBFE52D51EE65AB500CD4A49 /* BTFMDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTFMDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFE52D91EE65AB500CD4A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DBFE52DB1EE65AB500CD4A49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,19 +115,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBF93A1A1EE694D500A81EAC /* BTFMDatabase */ = {
+		DBAF11291EF3D310006DD915 /* BTFMDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				9780AF3877A72DAEA19CE38E /* BTDBManager.m */,
-				9780A5CABEA2159483268F99 /* BTDBManager.h */,
-				9780AD5C45F5FA6250A7CBE7 /* BTBaseDB.m */,
-				9780ACECA8037B6D6259128F /* BTBaseDB.h */,
-				9780AFD42E7238D132E2E018 /* BTDBProperty.m */,
-				9780A819FB53A3A1A265E6CB /* BTDBProperty.h */,
-				9780AA1A9374D011C01B1621 /* BTDBCondition.m */,
-				9780A0A0D19CF67064B59DE6 /* BTDBCondition.h */,
+				DBAF112A1EF3D310006DD915 /* BTBaseDB.h */,
+				DBAF112B1EF3D310006DD915 /* BTBaseDB.m */,
+				DBAF112C1EF3D310006DD915 /* BTDBCondition.h */,
+				DBAF112D1EF3D310006DD915 /* BTDBCondition.m */,
+				DBAF112E1EF3D310006DD915 /* BTDBManager.h */,
+				DBAF112F1EF3D310006DD915 /* BTDBManager.m */,
+				DBAF11301EF3D310006DD915 /* BTDBProperty.h */,
+				DBAF11311EF3D310006DD915 /* BTDBProperty.m */,
 			);
 			name = BTFMDatabase;
+			path = ../../BTFMDatabase;
 			sourceTree = "<group>";
 		};
 		DBFE52CC1EE65AB500CD4A49 = {
@@ -155,7 +156,7 @@
 		DBFE52D71EE65AB500CD4A49 /* BTFMDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				DBF93A1A1EE694D500A81EAC /* BTFMDatabase */,
+				DBAF11291EF3D310006DD915 /* BTFMDatabase */,
 				DBFE52DB1EE65AB500CD4A49 /* AppDelegate.h */,
 				DBFE52DC1EE65AB500CD4A49 /* AppDelegate.m */,
 				DBFE52DE1EE65AB500CD4A49 /* ViewController.h */,
@@ -386,12 +387,12 @@
 			files = (
 				DBAF11281EF3AD74006DD915 /* BTBaseDBTest.m in Sources */,
 				DBFE52E01EE65AB500CD4A49 /* ViewController.m in Sources */,
+				DBAF11351EF3D310006DD915 /* BTDBProperty.m in Sources */,
 				DBFE52DD1EE65AB500CD4A49 /* AppDelegate.m in Sources */,
+				DBAF11341EF3D310006DD915 /* BTDBManager.m in Sources */,
+				DBAF11321EF3D310006DD915 /* BTBaseDB.m in Sources */,
 				DBFE52DA1EE65AB500CD4A49 /* main.m in Sources */,
-				9780ABF112CD8ED38D8F5E9F /* BTDBManager.m in Sources */,
-				9780A3DB9EDC4EBB85E8C87E /* BTBaseDB.m in Sources */,
-				9780A867D33A94CA224E2C49 /* BTDBProperty.m in Sources */,
-				9780AF8E9D8F7EFC1E0215FE /* BTDBCondition.m in Sources */,
+				DBAF11331EF3D310006DD915 /* BTDBCondition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
