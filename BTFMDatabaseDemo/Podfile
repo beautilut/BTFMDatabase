@@ -1,0 +1,14 @@
+use_frameworks!
+
+
+
+target ‘BTFMDatabase’ do
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/beautilut/BTTOOL.git'
+
+pod 'FMDB'
+pod 'MJExtension'
+pod 'BTTOOL' , '0.1'
+
+end

@@ -1,0 +1,20 @@
+PODS:
+  - BTTOOL (0.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - BTTOOL (= 0.1)
+  - FMDB
+  - MJExtension
+
+SPEC CHECKSUMS:
+  BTTOOL: 6cef939d683b341dd97a8a88349ca8b5cc077799
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 6259c672eaff09855c268fc9b7ffa90ece0a51b1
+
+COCOAPODS: 1.1.1

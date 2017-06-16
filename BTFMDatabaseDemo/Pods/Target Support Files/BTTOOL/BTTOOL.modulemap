@@ -1,0 +1,6 @@
+framework module BTTOOL {
+  umbrella header "BTTOOL-umbrella.h"
+
+  export *
+  module * { export * }
+}
